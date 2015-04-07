@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://192.241.202.71',
+        url: 'http://peyao.me',
         mail: {},
         database: {
             client: 'sqlite3',
@@ -22,9 +22,9 @@ config = {
 
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '192.241.202.71',
+            host: '127.0.0.1',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '80'
+            port: '2368'
         }
     },
 
